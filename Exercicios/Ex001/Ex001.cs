@@ -4,7 +4,7 @@ using System;
 class Exercicio1{
     static void Main(){
         Console.WriteLine("Digite um numero:");
-        string num = (string) Console.ReadLine();
+        string num = Console.ReadLine();
         Console.WriteLine("O numero Informado foi o: " + num);
     }
 }
