@@ -7,8 +7,6 @@ class Exercicio6{
         Console.Write("Digite sua Altura: ");
         double alt = Convert.ToDouble(Console.ReadLine());
 
-        // Console.Write("Digite seu peso: ");
-        // double peso = Convert.ToDouble(Console.ReadLine());
 
         double mp = (72.7 * alt) - 58;
         Console.Write("O seu peso ideal e de: " + mp);
