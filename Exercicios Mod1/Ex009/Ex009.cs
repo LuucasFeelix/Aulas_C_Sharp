@@ -13,7 +13,7 @@ class Exercicio9{
 
         double n3 = (n1*2)*(n2/2);
         double n4 = (n1*3)+n3;
-        double n5 = Math.Pow(n4,3);
+        double n5 = Math.Pow(n3,3);
 
         Console.Write(n3+" "+n4+" "+n5);
 
