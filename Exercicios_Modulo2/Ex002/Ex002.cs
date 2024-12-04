@@ -1,6 +1,6 @@
 using System;
 
-class Exercicios1{
+class Exercicios2{
     static void Main(){
         Console.WriteLine("--------------------------------------------------------");
         Console.WriteLine("Digite um número para saber se e negativo ou positivo!!");
