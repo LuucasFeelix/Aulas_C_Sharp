@@ -14,12 +14,12 @@ class Exercicios4{
 
         int soma = (n1 + n2) / 2;
 
-        if(soma >= 7){
-            Console.Write("Sua media foi " + soma + " Aluno(a) Aprovado(a), PARABENS!!!");
-        }else if(soma < 7){
-            Console.Write("Sua media foi " + soma + " Aluno(a) Reprovado(a), Estude Mais!!");
-        }else if(soma > 9){
+        if(soma == 10){
             Console.Write("Sua media foi " + soma + " Aluno(a) Aprovado com Distinção, PARABENS!!!");
+        }else if(soma >= 7){
+            Console.Write("Sua media foi " + soma + " Aluno(a) Aprovado(a), PARABENS!!!");
+        }else{
+            Console.Write("Sua media foi " + soma + " Aluno(a) Reprovado(a), Estude Mais!!");
         }
     }
 }
